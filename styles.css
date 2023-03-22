@@ -1,0 +1,30 @@
+#grid-container{
+    /* display type */
+    display: grid;    
+
+    /* positioning */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -500px;
+
+
+    /* appearance */
+    border: 1px solid black;
+    height: 600px;
+    width: 1000px;
+    background: rgb(215, 215, 215);
+    /* align-self: auto;
+    justify-self: auto; */
+    
+    /* square display */
+    
+}
+
+.grid-square{
+    display: flex;
+    flex: 1;
+    border: 1px solid gray;
+    background-color: rgb(225, 225, 225);    
+}
